@@ -1,3 +1,4 @@
+<-- start CSS Reset -->
 /* Box sizing rules */
 *,
 *::before,
@@ -70,11 +71,11 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+<-- end CSS Reset -->
 
 .attribution {
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   text-align: center;
-  margin-top: 1rem;
 
 }
 .attribution a {
@@ -88,19 +89,19 @@ body {
   min-block-size: 100vh;
   background-color: hsl(212, 45%, 89%);
   padding: 1rem;
-
 }
 
 .container {
   flex-direction: column;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
-
   padding: 1rem;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin-right: 0px;
+  margin-bottom: 0.5rem;
+  box-shadow: -8px 10px 28px 3px rgba(189,194,201,0.53);
 }
 
 .qr {
